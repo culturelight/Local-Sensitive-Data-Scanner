@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+.build-venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+
+# Local scan output may contain sensitive information
+reports/
+scan_*.html
+scan_*.json
+
+# Local backup copy
+sensitive_data_scanner_backup_*.py
+
+# Logs
+*.log

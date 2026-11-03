@@ -1,0 +1,12 @@
+# Core (permissive licenses)
+pypdfium2
+python-docx
+openpyxl
+# Optional
+presidio-analyzer   # --ner  (also needs a spaCy model, e.g. en_core_web_lg)
+pytesseract         # OCR for scanned PDFs (also needs the Tesseract program installed)
+Pillow
+# Optional fallback PDF reader (AGPL license - check with legal before use):
+# pymupdf
+# Optional permanent PDF redaction (AGPL license - check with legal before use):
+# PyMuPDF
